@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {}
+
+.container {
+    width: 414px;
+    height: 896px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 55, 55);
+
+}
+
+.display {
+    width: 100%;
+    height: 30%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-inline: 100px;
+}
+
+.span {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.time {
+    width: 50px;
+    height: 30px;
+    font-size: 3rem;
+}
+
+#outerStart {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.outer2Start,
+.outer2Lap {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.btns {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#info {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(56, 55, 55);
+    overflow-y: scroll;
+    
+    color: white;
+    padding-inline: 10px;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#btnStart,
+#btnLap {
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+}
+
+#btnStart {
+    background-color: rgb(79, 113, 79);
+    color: rgb(7, 253, 7);
+}
+
+#outerStart {
+    background-color: rgb(79, 113, 79);
+}
+
+#outerLap {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(69, 66, 66);
+}
+
+.outer2Start {
+    background-color: black;
+}
+
+#btnLap {
+    background-color: rgb(69, 66, 66);
+    color: rgb(203, 202, 202);
+}
+
+
+
+
+.outer2Lap {
+    background-color: black;
+}
+
+.btnStop {
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+    color: red;
+    background-color: rgb(94, 41, 41);
+}
+
+
+.outerLap,
+.outerStop {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.outerStop {
+    background-color: rgb(94, 41, 41);
+
+}
+
+.outerLap {
+    background-color: rgb(111, 110, 110);
+
+}
+
+.resetBtn {
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(111, 110, 110);
+}
+
+.lap {
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px solid rgb(81, 79, 79);
+}
+
+.lapInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    height: auto;
+    padding: 3px;
+}
+
+.lapText {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background-color: rgb(81, 79, 79);
+}
